@@ -238,7 +238,7 @@ https://i9c203.p.ssafy.io/swagger-ui/index.html#/
             <a href="https://github.com/PARKHEECHANG">
               <img src="https://avatars.githubusercontent.com/u/122577719?v=4" width="200">
               <br />
-              <b>parkheechang</b>
+              <b>PARKHEECHANG</b>
             </a> 
         </td>
         <td style="min-width: 150px;">
