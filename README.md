@@ -7,7 +7,7 @@
 | Application | Domain | Language | Framework |
 | ---- | ---- | ---- | ---- |
 | :white_check_mark: Desktop Web | :white_check_mark: AI | :white_check_mark: JavaScript | :black_square_button: Vue.js |
-| :white_check_mark: Mobile Web | :black_square_button: Big Data | :black_square_button: TypeScript | :white_check_mark: React |
+| :white_check_mark: Mobile Web | :white_check_mark: Big Data | :black_square_button: TypeScript | :white_check_mark: React |
 | :white_check_mark: Responsive Web | :black_square_button: Blockchain | :black_square_button: C/C++ | :black_square_button: Angular |
 | :black_square_button: Android App | :black_square_button: IoT | :black_square_button: C# | :white_check_mark: Node.js |
 | :black_square_button: iOS App | :black_square_button: AR/VR/Metaverse | :white_check_mark: Python | :black_square_button: Flask/Django |
@@ -52,13 +52,12 @@
 <div align=center>
 
 
-![Untitled__1_](/uploads/bb081bf8dd08ab7b6cf65f68b2c9928d/Untitled__1_.png){: width="850" height=""}
+![로고](./assets/images/logo.png){: width="800" height=""}
 
 :alarm_clock: 프로젝트 기간  : 2023-07-04 ~ 2023-08-18
 
 ## [RE:ON](https://i9c203.p.ssafy.io/) :film_frames:
 연기를 쉽고 재밌게!!:cool: <br>
-
 
 </div>
 
@@ -75,70 +74,89 @@ SNS와 유튜브 등에서 밈과 성대모사가 활발하게 퍼져나가고 �
 * 자신의 연기 영상을 공유하며 다른 사용자들과 소통할 수 있습니다.	:clap:
 
 # 기능 소개💡
-* REON은 다음 기능을 통해 사용자들에게 **재미**를 선사합니다.
-### 같이하기
+* REON의 주요 기능은 다음과 같습니다!
 
+## 같이하기 :movie_camera:
+
+|같이하기-백스테이지|같이하기-베틀룸|
+|:---:|:---:|
+| ![같이하기-백스테이지](./assets/gif/같이하기-백스테이지GIF.gif) | ![같이하기-배틀룸GIF.gif](./assets/gif/같이하기-배틀룸GIF.gif) |
+|연기 대결을 하기 전 백스테이지입니다!|연기 대결을 진행하는 베틀룸입니다!|
 - 1:1 화상 연기 배틀을 진행합니다.
 - 표정과 음성을 이용하여 연기를 채점합니다.
-    - AI 모델로 원본 영상과의 감정을 비교하여 채점합니다.
-    - 사용자의 음성을 STT로 변환하여 원본 영상의 대본과 비교하여 채점합니다.
+- AI 모델로 원본 영상과의 감정을 비교하여 채점합니다.
+- 사용자의 음성을 STT로 변환하여 원본 영상의 대본과 비교하여 채점합니다.
 
-### 혼자하기
+## 투표해줘 :clipboard:
+|연기영상 업로드|투표해줘 게시판|
+|:---:|:---:|
+| ![마이페이지-업로드](./assets/gif/마이페이지-업로드GIF.gif) | ![투표해줘-일반](./assets/gif/투표해줘-일반GIF.gif) |
+|저장한 연기영상을 투표해줘 게시판에 업로드 할 수 있습니다!|유저들이 업로드한 연기영상을 볼 수 있습니다!|
 
-- 연기 배틀에 부담을 느끼거나 연습을 하고 싶을때 홀로 연기연습을 할 수 있습니다.
-- 홀로 연기하고 채점을 진행하면서 연기 실력을 향상시킬 수 있습니다.
-
-### 투표해줘
+|이달의 인기영상|커뮤니케이션|
+|:---:|:---:|
+| ![투표해줘-인기영상](./assets/gif/투표해줘-인기영상GIF.gif) | ![투표해줘-좋아요댓글](./assets/gif/투표해줘-좋아요댓글GIF.gif) |
+|유저들이 업로드한 연기영상을 볼 수 있습니다!|댓글과 좋아요로 소통할 수 있습니다!|
 
 - 연기 배틀을 종료하고, 여러분의 연기를 저장할 수 있습니다.
 - 저장한 연기 영상을 공유하여 다른 사용자들과 소통하고 평가할 수 있습니다.
 - 많은 사랑을 받은 연기는 REON 인기 영상으로 진입합니다.
 
-### 시연 시나리오
+## 혼자하기 :selfie:
+|연기 연습|연기 영상 교체|
+|:---:|:---:|
+| ![혼자하기-게임](./assets/gif/혼자하기-게임GIF.gif) |![혼자하기-게임변경](./assets/gif/혼자하기-게임변경GIF.gif) | 
+|혼자 연기연습을 할 수 있습니다!|연기 영상 변경이 가능합니다!|
+- 연기 배틀에 부담을 느끼거나 연습을 하고 싶을때 홀로 연기연습을 할 수 있습니다.
+- 홀로 연기하고 채점을 진행하면서 연기 실력을 향상시킬 수 있습니다.
+
+
+
+# 서비스 이용 시나리오
 
 |메인페이지|메인페이지|
 |:---:|:---:|
-| ![2](/uploads/7305028b253dfc4f9211a4729b2bf659/2.png) | ![3](/uploads/763998e222bd88cf0869bb11fc25b1eb/3.png) |
+| ![메인페이지1](./assets/images/메인페이지.png) | ![메인페이지2](./assets/images/메인페이지2.png) |
 |상단 메뉴바를 이용하여 원하는 서비스를 이용할 수 있습니다.|사용자 메뉴를 선택하여 로그인, 로그아웃, 마이페이지 이동이 가능합니다.|
 
 |같이하기-백스테이지|같이하기-튜토리얼|
 |:---:|:---:|
-| ![4](/uploads/59e5e7112ceb210981f5c1dfa8e66ce9/4.png) | ![5](/uploads/470b4f175d95017528c2e3fb46547686/5.png) |
+| ![같이하기-백스테이지](./assets/images/같이하기-벡스테이지.png) | ![같이하기-튜토리얼](./assets/images/같이하기-튜토리얼.png) |
 |상단 메뉴 같이하기 선택 시 입장하게 되는 페이지입니다.<br> 개인의 배틀 정보와 현재 top랭킹을 확인 할 수 있습니다.|게임을 시작하기에 앞서 튜토리얼을 통해 게임 방법을 확인 할 수 있습니다.|
 
-|같이하기-1vs1 베틀페이지(1)|같이하기-1vs1 베틀페이지(2)|
+|같이하기- 베틀페이지(1)|같이하기- 베틀페이지(2)|
 |:---:|:---:|
-| ![6](/uploads/0db12990bd0b9f212b10d158e8662a9e/6.png) | ![7](/uploads/76bf49d9dedefb6a283aaf3c175143f0/7.png) |
+| ![같이하기-베틀페이지1](./assets/images/같이하기-베틀페이지1.png) | ![같이하기-베틀페이지2](./assets/images/같이하기-베틀페이지2.png) |
 |매칭된 유저의 화면이 보이고 가운데에 연기할 연기 영상 및 대본이 보입니다.|연기 영상이 보여진 후 차례대로 연기를 진행합니다.|
 
-|같이하기-1vs1 베틀페이지(3)|같이하기-1vs1 베틀페이지(4)|
+|같이하기-베틀페이지(3)|같이하기-베틀페이지(4)|
 |:---:|:---:|
-| ![8](/uploads/e289445cbeee48f786248f09313824a9/8.png) | ![9](/uploads/caabb60bdd761e55e34d5ff390fefa14/9.png) |
+| ![같이하기-베틀페이지3](./assets/images/같이하기-베틀페이지3.png) | ![같이하기-베틀페이지4](./assets/images/같이하기-베틀페이지4.png) |
 |자신의 차례가 아니라면 음소거 처리됩니다.|게임이 종료되면 승패 여부가 보여지고 자신의 연기 영상을 저장할 수 있습니다.|
 
 |마이페이지|마이페이지-프로필 수정|
 |:---:|:---:|
-| ![10](/uploads/6b647d30f570c06195863dfd1c268642/10.png) | ![11](/uploads/be3e006189d19603bedb5df330a57410/11.png) |
+| ![마이페이지](./assets/images/마이페이지.png) | ![마이페이지-프로필수정](./assets/images/마이페이지-프로필수정.png) |
 |유저 정보와 공개 연기영상, 비공개 연기영상, 좋아요를 누른 연기영상을 볼 수 있습니다.<br>다른 유저의 페이지라면 해당 유저가 공개한 연기 영상만 확인이 가능합니다.|프로필 이미지 수정이 가능합니다.|
 
 |마이페이지-프로필 수정|마이페이지-비공개 영상 상세보기|
 |:---:|:---:|
-| ![12](/uploads/f7c63301b2ba85dfa8d8f4612833187c/12.png) | ![13](/uploads/3535a92e890f2966a6df9a2daadf5c8d/13.png) |
+| ![마이페이지-프로필수정2](./assets/images/마이페이지-프로필수정2.png) | ![마이페이지-비공개영상상세보기](./assets/images/마이페이지-비공개영상상세보기.png) |
 |자신의 닉네임, 자기소개 수정이 가능합니다.|저장된 연기영상을 볼 수 있고 투표해줘 게시판에 작성이 가능합니다.|
 
 |마이페이지-게시글|마이페이지-좋아요|
 |:---:|:---:|
-| ![14](/uploads/f012dd5c3da7b9cc9c0f0a0b31db4ea0/14.png) | ![15](/uploads/c22668b502a050028fdfa183861fcd4e/15.png) |
+| ![마이페이지-게시글](./assets/images/마이페이지-게시글.png) | ![마이페이지-좋아요](./assets/images/마이페이지-좋아요.png) |
 |투표해줘 게시판에 올린 연기영상을 의미합니다.<br> 좋아요와 댓글로 소통이 가능합니다.|내가 좋아요를 누른 다른 사람의 연기영상을 볼 수 있습니다.|
 
 |투표해줘 게시판|투표해줘-인기영상|
 |:---:|:---:|
-| ![16](/uploads/18deb878354fda959eb5a229d58fd076/16.png) | ![17](/uploads/17531abdedd9adfb1e9fbdd46f628eaa/17.png) |
+| ![투표해줘-게시판](./assets/images/투표해줘-게시판.png) | ![투표해줘-인기영상](./assets/images/투표해줘-인기영상.png) |
 |소통과 평가를 위해 공개한 연기 영상들을 볼 수 있습니다.|한달동안 가장 좋아요를 많이 받은 영상들을 보여줍니다.|
 
 |혼자하기|혼자하기|
 |:---:|:---:|
-| ![18](/uploads/8c09289401cdbcb1e501c743eda7f95d/18.png) | ![19](/uploads/da9a720d7235dcd7cdd9d06ccb422496/19.png) |
+| ![혼자하기](./assets/images/혼자하기.png) | ![혼자하기2](./assets/images/혼자하기2.png) |
 |혼자 연기 연습을 할 수 있는 페이지입니다.|연기를 진행한 뒤 베틀과 동일하게 AI로 채점을 진행합니다.|
 
 
@@ -146,7 +164,9 @@ SNS와 유튜브 등에서 밈과 성대모사가 활발하게 퍼져나가고 �
 ### 사용자의 연기 영상을 원본 영상(배우의 연기 영상) 과 비교하여 점수를 산출합니다.
 - 비교 방법은 감정 분류를 통해 나온 감정 확률 값의 차이를 이용합니다.
 - 감정 분류는 얼굴 검출과 이미지 분류, 2가지 Task로 구성됩니다.
-- ![taskdescribe](/uploads/17c81f501ae6e930d2dca30bf65a0dc0/task_describe.png)
+- ![taskdescribe](./assets/AI/AI_task_describe.png)
+
+
 - AI 모델 설정과 학습에 대한 상세한 설명은 [Chorong.md](https://lab.ssafy.com/s09-webmobile1-sub2/S09P12C203/-/blob/dev/Chorong.md).
 
 # API 연동 규격서 
@@ -154,24 +174,27 @@ https://i9c203.p.ssafy.io/swagger-ui/index.html#/
 
 # 시스템 구조도🏗️
 
-![캡처](/uploads/e881beaad267ed3bb739d0050a17715c/캡처.PNG)
+![systemarchitecture](./assets/images/REON_SYSTEMARCHITECTURE.PNG)
 
 # 개발 스택🔧
 
 ## Frontend
-![frontend](/uploads/0451d15c19e00004331111405343836d/frontend.PNG){: width="600" height=""}
+![frontend](./assets/images/REON_FRONTEND.PNG){: width="600" height=""}
 
 ## Backend
-![backend](/uploads/331eab97d023d514efb82463d18e2393/backend.PNG){: width="600" height=""}
+![backend](./assets/images/REON_BACKEND.PNG){: width="600" height=""}
 
 ## Infra
-![INFRA](/uploads/b6b5d6907c3e8e4f66e55d6817ad8f00/INFRA.PNG)
+
+![INFRA](./assets/images/REON_INFRA.PNG)
 
 ## AI
-![AI](/uploads/3861f1c15859e65b30f87700331cb2fc/AI.PNG)
+
+![AI](./assets/images/REON_AI.PNG)
 
 ## Tool
-![REON_TOOL](/uploads/1f5409860a6bcbbd790eacefae9e4219/REON_TOOL.PNG){: width="500" height=""}
+
+![tool](./assets/images/REON_TOOL.PNG){: width="500" height=""}
 
 # 팀원소개 🤝
 
