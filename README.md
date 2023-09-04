@@ -7,7 +7,7 @@
 | Application | Domain | Language | Framework |
 | ---- | ---- | ---- | ---- |
 | :white_check_mark: Desktop Web | :white_check_mark: AI | :white_check_mark: JavaScript | :black_square_button: Vue.js |
-| :white_check_mark: Mobile Web | :white_check_mark: Big Data | :black_square_button: TypeScript | :white_check_mark: React |
+| :white_check_mark: Mobile Web | :black_square_button: Big Data | :black_square_button: TypeScript | :white_check_mark: React |
 | :white_check_mark: Responsive Web | :black_square_button: Blockchain | :black_square_button: C/C++ | :black_square_button: Angular |
 | :black_square_button: Android App | :black_square_button: IoT | :black_square_button: C# | :white_check_mark: Node.js |
 | :black_square_button: iOS App | :black_square_button: AR/VR/Metaverse | :white_check_mark: Python | :black_square_button: Flask/Django |
@@ -52,7 +52,7 @@
 <div align=center>
 
 
-![로고](./assets/images/logo.png){: width="800" height=""}
+![로고](./assets/images/logo.png)
 
 :alarm_clock: 프로젝트 기간  : 2023-07-04 ~ 2023-08-18
 
