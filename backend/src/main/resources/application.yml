@@ -1,0 +1,52 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+  cloud:
+    gcp:
+      storage:
+        credentials:
+          location: classpath:ninth-botany-395113-5f24f3555342.json
+        project-id: 5f24f35553425ba271e94c142c197a698e90f0dc
+        bucket: reon-bucket
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/reon_local?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false
+    username: "reon"
+    password: "reon"
+  #    driver-class-name: org.mariadb.jdbc.Driver
+  #    url: jdbc:mariadb://stg-yswa-kr-practice-db-master.mariadb.database.azure.com:3306/S09P12C203?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false
+  #    username: "S09P12C203"
+  #    password: "3iNtyHIJCM"
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      #      ddl-auto: create
+      #      ddl-auto: none
+      show-sql: true # DDL 출력
+    generate-ddl: true
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+OPENVIDU_URL: https://i9c203.p.ssafy.io
+OPENVIDU_SECRET: openvidureonc203
+
+oauth:
+  naver:
+    secret: WRf9Tvwu7z
+    client-id: EJLfPmAn1c9dXfThcDEl
+    url:
+      auth: https://nid.naver.com
+      api: https://openapi.naver.com
+jwt:
+  secret-key:
