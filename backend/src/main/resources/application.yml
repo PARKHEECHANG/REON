@@ -38,13 +38,13 @@ spring:
         show_sql: true
         format_sql: true
 
-OPENVIDU_URL: https://i9c203.p.ssafy.io
+OPENVIDU_URL:
 OPENVIDU_SECRET: openvidureonc203
 
 oauth:
   naver:
-    secret: WRf9Tvwu7z
-    client-id: EJLfPmAn1c9dXfThcDEl
+    secret:
+    client-id:
     url:
       auth: https://nid.naver.com
       api: https://openapi.naver.com

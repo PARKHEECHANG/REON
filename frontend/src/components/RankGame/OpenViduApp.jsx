@@ -25,7 +25,7 @@ import { registerBattleLog } from 'apiList/member';
 import { randomVideo } from 'apiList/video';
 
 const APPLICATION_SERVER_URL =
-  process.env.NODE_ENV === 'production' ? '' : 'https://i9c203.p.ssafy.io';
+  process.env.NODE_ENV === 'production' ? '' : 'https://i9c203.p.safy.io';
 
 export default function OpenViduApp() {
   const dispatch = useDispatch();

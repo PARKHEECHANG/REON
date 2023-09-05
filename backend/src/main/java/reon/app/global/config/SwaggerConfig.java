@@ -28,7 +28,7 @@ public class SwaggerConfig {
                 .apis(RequestHandlerSelectors.basePackage("reon.app.domain"))
                 .paths(PathSelectors.any())
                 .build()
-                .host("https://i9c203.p.ssafy.io/api")
+                .host("https://i9c203.p.safy.io/api")
                 .securitySchemes(Arrays.asList(apiKey()))
                 .securityContexts(Arrays.asList(securityContext()))
                 .apiInfo(apiInfo());

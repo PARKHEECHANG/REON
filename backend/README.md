@@ -24,6 +24,7 @@
 Windows 기준 개발 환경 구성 설명
 
 1. OpenJDK 설치
+
    1. JDK 다운로드 사이트에서 1.8.x 설치 파일 다운로드 및 실행
       - Zulu OpenJDK: https://www.azul.com/downloads/?version=java-8-lts&package=jdk
       - OJDK Build: https://github.com/ojdkbuild/ojdkbuild
@@ -38,32 +39,35 @@ Windows 기준 개발 환경 구성 설명
       OpenJDK 64-Bit Server VM (Zulu 8.33.0.1-win64) (build 25.192-b01, mixed mode)
       ```
 
-2. 데이터베이스 구성 *(이미 설치되어 있거나 원격 DB를 사용하는 경우 설치 부분 생략)*
+2. 데이터베이스 구성 _(이미 설치되어 있거나 원격 DB를 사용하는 경우 설치 부분 생략)_
    1. MySQL 다운로드 사이트에서 Community 설치 파일 다운로드 및 실행
-      
+
       - https://dev.mysql.com/downloads/installer/
+
    2. MySQL Server, MySQL Shell을 포함하여 설치
    3. DB 및 계정 생성
+
       - MySQL Shell 실행
-         ```
-         MySQL  JS > \connect root@localhost
-         MySQL  localhost:3306  JS > \sql
-         ```
+        ```
+        MySQL  JS > \connect root@localhost
+        MySQL  localhost:3306  JS > \sql
+        ```
       - DB 생성
-         ```sql
-         create database IF NOT EXISTS `ssafy_web_db` collate utf8mb4_general_ci;
-         ```
+        ```sql
+        create database IF NOT EXISTS `safy_web_db` collate utf8mb4_general_ci;
+        ```
       - User 생성
-         ```sql
-         create user '사용자계정'@'localhost' identified by '비밀번호';
-         grant all privileges on ssafy_web_db.* to 'ssafy'@'localhost';
-         flush privileges;
-         ```
+        ```sql
+        create user '사용자계정'@'localhost' identified by '비밀번호';
+        grant all privileges on safy_web_db.* to 'ssafy'@'localhost';
+        flush privileges;
+        ```
+
       ```
-      
+
       ```
-   
-3. IDE 설치 *(이미 설치되어 있거나 IntelliJ 등 다른 편집기를 사용할 경우 생략)*
+3. IDE 설치 _(이미 설치되어 있거나 IntelliJ 등 다른 편집기를 사용할 경우 생략)_
+
    1. Eclipse 다운로드 사이트에서 Eclipse IDE 설치 파일 다운로드 및 실행
       - https://www.eclipse.org/downloads/
    2. Eclipse IDE for Enterprise Java and Web Developer 선택하여 설치
@@ -74,30 +78,27 @@ Windows 기준 개발 환경 구성 설명
       - [Help] - [Eclipse Marketplace] - sts 검색 후 Spring Tools 3 설치
    5. Lombok 설치
       - [Help] - [Install New Software] - Work with: https://projectlombok.org/p2 입력 후 Lombok 설치 진행
-   6. Eclipse 재시작   
+   6. Eclipse 재시작
 
 4. 스켈레톤 다운로드 및 실행
 
    1. 프로젝트 다운로드
+
       ```
       git clone <repo URL>
       ```
 
    2. Eclipse의 [File] - [Import] - [Grade] - [Existing Gradle Project]에서 backend-java 폴더 선택 후 [Finish]
-   
+
    3. Project Explorer에서 프로젝트 우클릭 후 [Spring] - [Add Spring Nature] 선택
-      
    4. src/main/resources/application.properties 수정
-   
+
       ```
-   spring.datasource.hikari.username=<사용자 계정>
+      spring.datasource.hikari.username=<사용자 계정>
       spring.datasource.hikari.password=<비밀번호>
       ```
-   
+
    5. [Gradle Tasks] 탭의 [Rub Gradle Tasks] 선택하여 실행
-
-
-
 
 ## 디렉토리 구조
 
@@ -157,4 +158,3 @@ Windows 기준 개발 환경 구성 설명
         ├── package.json
         ├── public
 ```
-
