@@ -228,10 +228,10 @@ https://i9c203.p.ssafy.io/swagger-ui/index.html#/
             </a>
         </td>
         <td style="min-width: 150px;">
-            <a href="https://github.com/PARKHEECHANG">
+            <a href="https://github.com/prkhch">
               <img src="https://avatars.githubusercontent.com/u/122577719?v=4" width="200">
               <br />
-              <b>PARKHEECHANG</b>
+              <b>prkhch</b>
             </a> 
         </td>
         <td style="min-width: 150px;">
